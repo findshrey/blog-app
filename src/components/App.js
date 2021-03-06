@@ -1,10 +1,16 @@
 import React from 'react'
 
+import Navbar from './Navbar'
+import Home from './Home'
+
 const App = () => {
    return (
-      <h1>
-         REACT APP
-      </h1>
+      <div className="App">
+         <Navbar />
+         <div className="content">
+            <Home />
+         </div>
+      </div>
    )
 }
 
